@@ -1,3 +1,15 @@
+### Github Repository 
+
+[Procedures of creating new Repository](https://docs.github.com/en/get-started/quickstart/create-a-repo)
+
+### Github Action
+
+[Introduction of Github Action](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
+
+### Visual Studio Code
+
+[Getting started with Visual Studio Code](https://code.visualstudio.com/docs/introvideos/basics)
+
 #### READme.md
 
 Include the overall steps and tools used in this assignment. 
