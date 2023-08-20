@@ -49,10 +49,10 @@ jobs:
         with:
           args: deploy
         env:
-           - name: Get secrets by name and by ARN
-             uses: aws-actions/aws-secretsmanager-get-secrets@v1
-             with:
-               secret-ids: |
+        - name: Get secrets by name and by ARN
+          uses: aws-actions/aws-secretsmanager-get-secrets@v1
+          with:
+            secret-ids: |
                 yuyuan-secret
                 arn:aws:secretsmanager:ap-southeast-1:255945442255:secret:yuyuan-secret-72ZuiP
                 0/test/secret
