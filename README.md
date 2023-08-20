@@ -160,6 +160,6 @@ jobs:
 - Run” serverless deploy”
 - Run “serverless remove” 
 - Add in .github/workflows/main.yml
-- Add in pre-deploy, install dependencies into main.yml
+- Add in pre-deploy, install dependencies, unit testing and deploy into main.yml
 - Add in ASCCES_KEY and parameter in index.js and serverless.yml
 - Carry out Github Action and Run the workflow.
