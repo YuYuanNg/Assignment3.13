@@ -4,7 +4,7 @@ module.exports.handler = async (event) => {
       body: JSON.stringify(
         {
           message: "Go Serverless v3.0! Your function executed successfully!",
-          input: event,
+          access_key: process.env.ACCESS_KEY
         },
         null,
         2

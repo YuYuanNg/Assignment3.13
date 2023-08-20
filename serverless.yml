@@ -14,6 +14,8 @@ functions:
       - httpApi:
           path: /yuyuan-cluster
           method: get
+    environment:
+      ACCESS_KEY: ${ssm:yuyuan-parameter}
 
 plugins:
   - serverless-offline
